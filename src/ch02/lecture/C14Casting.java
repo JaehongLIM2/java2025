@@ -4,6 +4,7 @@ public class C14Casting {
     public static void main(String[] args) {
         // 타입 변환
         // 작은 타입의 변수값을 큰 타입에 옮겨 담는 것은 항상 가능(문제 없음)
+        // 기본 타입 <-> 참조 타입간 형 변환은 안됨
 
         byte a = 3;
         short b = 100;

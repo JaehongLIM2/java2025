@@ -17,6 +17,6 @@ public class CastingExample {
         double var7 = 3.14;
         int var8 = (int) var7;
         System.out.println("var8 = " + var8);
-        
+
     }
 }
