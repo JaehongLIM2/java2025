@@ -30,3 +30,4 @@ public class SwitchValueExample {
         System.out.println("score2 = " + score2);
     }
 }
+
