@@ -17,7 +17,7 @@ public class C11NestedFor {
 
         System.out.println("------");
 
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 6; i++) {
             for (int j = 0; j < 5 - i; j++) {
                 System.out.print("*");
             }
@@ -54,11 +54,9 @@ public class C11NestedFor {
         System.out.println("------");
 
         for (int i = 1; i <= 5; i++) {
-            int m = 1;
             for (int j = 0; j < i; j++) {
-                System.out.print(m++);
+                System.out.print(j);
             }
-            m = 1;
             System.out.println("");
         }
 
