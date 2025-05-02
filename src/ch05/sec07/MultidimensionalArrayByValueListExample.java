@@ -18,14 +18,14 @@ public class MultidimensionalArrayByValueListExample {
         for (int i = 0; i < score[0].length; i++) {
             class1Sum += score[0][i];
         }
-        double class1Avg = class1Sum / score[0].length;
+        double class1Avg = (double) class1Sum / score[0].length;
         System.out.println("첫 번째 반의 평균 점수 = " + class1Avg);
 
         int class2Sum = 0;
         for (int i = 0; i < score[1].length; i++) {
             class2Sum += score[1][i];
         }
-        double class2Avg = class2Sum / score[1].length;
+        double class2Avg = (double) class2Sum / score[1].length;
         System.out.println("두 번째 반의 평균 점수 = " + class2Avg);
 
         int totalStudent = 0;

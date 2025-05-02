@@ -19,33 +19,36 @@ public class C02SumAvg {
         for (int i = 0; i < arr[0].length; i++) {
             sum1 += arr[0][i];
         }
+
+        avg1 = (double) sum1 / arr[0].length;
+        System.out.println("sum1 = " + sum1);
+        System.out.println("avg1 = " + avg1);
         for (int i = 0; i < arr[1].length; i++) {
             sum2 += arr[1][i];
         }
+
+        avg2 = (double) sum2 / arr[1].length;
+        System.out.println("sum2 = " + sum2);
+        System.out.println("avg2 = " + avg2);
         for (int i = 0; i < arr[2].length; i++) {
             sum3 += arr[2][i];
         }
+        avg3 = (double) sum3 / arr[2].length;
+        System.out.println("sum3 = " + sum3);
+        System.out.println("avg3 = " + avg3);
 
+
+        int totalNum = 0;
         for (int i = 0; i < arr.length; i++) {
+            totalNum += arr[i].length;
             for (int j = 0; j < arr[i].length; j++) {
                 sum += arr[i][j];
             }
         }
-        System.out.println("sum = " + sum);
 
-
-        System.out.println("sum1 = " + sum1);
-        System.out.println("sum2 = " + sum2);
-        System.out.println("sum3 = " + sum3);
-
-        avg1 = (double) sum1 / arr[0].length;
-        avg2 = (double) sum2 / arr[1].length;
-        avg3 = (double) sum3 / arr[2].length;
-
-        System.out.println("avg1 = " + avg1);
-        System.out.println("avg2 = " + avg2);
-        System.out.println("avg3 = " + avg3);
-
+        double avg = (double) sum / totalNum;
+        System.out.println("전체 합계 = " + sum);
+        System.out.println("전체 평균 = " + avg);
 
     }
 }
