@@ -1,4 +1,4 @@
-package ch07.exersise.p08;
+package ch07.exercise.p08;
 
 public class SnowTireExample {
     public static void main(String[] args) {
