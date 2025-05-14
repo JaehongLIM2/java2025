@@ -1,0 +1,20 @@
+package ch16.lecture.p01.lambda;
+
+public class App02 {
+    public static void main(String[] args) {
+        // lambda : functinal interface(추상 메소드가 하나인 인터페이스)의
+        //          익명 클래스 개체(하나일때만 가능)
+
+        MyInterface02 a = () -> {
+            System.out.println("App02.method1");
+        };
+    }
+}
+
+// @FunctionalInterface : 이 인터페이스가 functional interface(추상 메소드가 하나)인지 검사
+@FunctionalInterface
+interface MyInterface02 {
+    void method1();
+
+//    void method2();
+}
