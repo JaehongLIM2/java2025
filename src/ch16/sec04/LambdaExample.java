@@ -5,7 +5,7 @@ public class LambdaExample {
         Person person = new Person();
 
         person.action((x, y) -> {
-            return wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww(x + y);
+            return (x + y);
         });
 
         person.action((x, y) -> (x + y));
