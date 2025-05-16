@@ -4,7 +4,7 @@ import java.util.regex.Pattern;
 
 public class App01 {
     public static void main(String[] args) {
-        // 정규표현식(regex, Regulat Expression)
+        // 정규표현식(regex, Regulate Expression)
         // 문자열의 패턴을 표현하는 문자열
 
 
