@@ -22,8 +22,8 @@ class Box062<T extends String> {
 //        String o = (String) item;
 //        o.toUpperCase();
 
-        // bounded type parameter 로 특정 타입의 메소드를 사용 가능
 
+        // bounded type parameter 로 특정 타입의 메소드를 안전하게 사용 가능
         String upperCase = item.toUpperCase();
         System.out.println(upperCase);
 
