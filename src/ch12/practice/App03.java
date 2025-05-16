@@ -9,10 +9,10 @@ public class App03 {
         Scanner scanner = new Scanner(System.in);
         String phoneNumber = "010(-?|\\s?)\\d{4}(-?|\\s?)\\d{4}";
 
-        // 유효한 전화번호 인지 확인
+        // 유효한 전화번호 인지 확인\
 
         while (true) {
-            System.out.print("입력 : ");
+            System.out.print("전화번호 입력 : ");
             String userInput = scanner.nextLine();
             boolean matches = Pattern.matches(phoneNumber, userInput);
 
@@ -22,6 +22,7 @@ public class App03 {
             } else {
                 System.out.println("패턴에 일치하지 않는 전화번호입니다.");
             }
+            System.out.println();
         }
 
         // 아래 전화번호들은 패턴에 일치하는 것들
