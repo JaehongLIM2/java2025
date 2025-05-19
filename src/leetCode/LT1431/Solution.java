@@ -5,13 +5,11 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Solution {
-    
     public List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
 //        List<Integer> kids = Arrays.stream(candies).boxed().toList();
 
-        candies = new int[]{2, 3, 5, 1, 3};
-        extraCandies = 3;
         // 1. kids List에서 가장 큰 값 구하기
+
         int max = candies[0];
         for (int i = 1; i < candies.length; i++) {
             if (candies[i] > max) {
@@ -37,6 +35,7 @@ public class Solution {
 
 
         // result 리턴
+
 
         return list;
     }
