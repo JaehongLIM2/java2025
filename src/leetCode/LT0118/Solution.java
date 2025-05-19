@@ -16,9 +16,7 @@ public class Solution {
                     int v = prevRow.get(j - 1) + prevRow.get(j);
                     row.add(v);
                 }
-                if (i > 0) {
-                    row.add(1);
-                }
+                row.add(1);
             }
             result.add(row);
         }
