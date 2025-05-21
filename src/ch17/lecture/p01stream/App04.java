@@ -24,6 +24,7 @@ public class App04 {
         s3.forEach(System.out::println);
 
         System.out.println("-----");
+
         // method chaining
         list.stream()
                 .filter(i -> i % 2 == 1)
