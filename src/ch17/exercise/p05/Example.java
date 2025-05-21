@@ -10,8 +10,18 @@ public class Example {
                 "Lambda Expressions",
                 "Java8 supports lambda expressions"
         );
+
         list.stream()
                 .filter(a -> a.toLowerCase().contains("java"))
                 .forEach(System.out::println);
+
+
+        // 명령형
+        for (String item : list) {
+            String lowerCase = item.toLowerCase();
+            if (lowerCase.contains("java")) {
+                System.out.println(item);
+            }
+        }
     }
 }
