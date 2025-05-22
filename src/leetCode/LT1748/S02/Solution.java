@@ -17,7 +17,7 @@ public class Solution {
         List<Integer> list = collect.entrySet()
                 .stream()
                 .filter(e -> e.getValue() == 1)
-                .map(Map.Entry::getKey)
+                .map(e -> e.getKey())
                 .toList();
 
         Integer reduce = list.stream()
