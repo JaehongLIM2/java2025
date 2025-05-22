@@ -1,6 +1,6 @@
 package ch11.lecture;
 
-public class app05 {
+public class App05 {
     public static void main(String[] args) {
 
         try {
