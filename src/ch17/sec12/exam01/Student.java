@@ -22,4 +22,13 @@ public class Student {
     public Integer getScore() {
         return score;
     }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", sex='" + sex + '\'' +
+                ", score=" + score +
+                '}';
+    }
 }
