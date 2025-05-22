@@ -1,7 +1,6 @@
-package leetCode.LT1431;
+package leetCode.LT1431.S01;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class Solution {

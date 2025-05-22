@@ -1,11 +1,11 @@
-package leetCode.LT1431;
+package leetCode.LT1431.S02;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 public class SolutionTeachers {
     public List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
+        /*
         List<Integer> kids = Arrays.stream(candies).boxed().toList();
 
         // 1. kids List에서 가장 큰 값 구하기
@@ -30,5 +30,17 @@ public class SolutionTeachers {
 
         // result 리턴
         return result;
+
+         */
+
+        // 최대값구하기
+        int max = Arrays.stream(candies)
+                .max()
+                .orElse(0);
+
+        return Arrays.stream(candies)
+                .map(s -> s + extraCandies)
+                .mapToObj(s -> s >= max)
+                .toList();
     }
 }
