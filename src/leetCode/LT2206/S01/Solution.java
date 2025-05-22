@@ -1,4 +1,4 @@
-package leetCode.LT2206;
+package leetCode.LT2206.S01;
 
 import java.util.HashMap;
 import java.util.Map;
