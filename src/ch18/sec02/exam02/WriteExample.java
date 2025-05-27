@@ -15,6 +15,5 @@ public class WriteExample {
         os.flush();
         os.close();
 
-
     }
 }
