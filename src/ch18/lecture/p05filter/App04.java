@@ -49,7 +49,6 @@ public class App04 {
                 }
             }
         } catch (IOException e) {
-            throw new RuntimeException(e);
         }
     }
 
@@ -63,11 +62,9 @@ public class App04 {
                 byte[] data = new byte[1024];
                 int len = 0;
                 while ((len = bis.read(data)) != -1){
-
                 }
             }
         } catch (IOException e) {
-            throw new RuntimeException(e);
         }
     }
 
@@ -104,6 +101,5 @@ public class App04 {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-
     }
 }

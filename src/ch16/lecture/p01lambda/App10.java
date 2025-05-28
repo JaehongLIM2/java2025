@@ -1,7 +1,6 @@
-package ch16.lecture.p01.lambda;
+package ch16.lecture.p01lambda;
 
 import java.io.InputStream;
-import java.nio.file.Path;
 import java.util.Scanner;
 
 public class App10 {

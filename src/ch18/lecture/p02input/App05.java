@@ -8,7 +8,6 @@ public class App05 {
         // 파일을 읽어서
         String inputFileName = "./images/bear.jpg";
         InputStream is = new FileInputStream(inputFileName);
-
         // C:/Temp/bear.jpg
         // 복사하기
         String outputFileName = "C:/Temp/bear.jpg";
@@ -20,7 +19,6 @@ public class App05 {
             while ((length = is.read(bucket)) != -1) {
                 os.write(bucket, 0, length);
             }
-        }
 
         os.flush();
 

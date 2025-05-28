@@ -5,9 +5,9 @@ import java.io.*;
 public class App02 {
     public static void main(String[] args) throws IOException {
 
+        String filename = "C:/Temp/reader02.txt";
         // reader 연습용 파일 만들기
-        String fileName = "C:/Temp/reader02.txt";
-        try (Writer writer = new FileWriter(fileName)) {
+        try (Writer writer = new FileWriter(filename)) {
             writer.write('a');
             writer.write('한');
             writer.write('글');
@@ -17,12 +17,12 @@ public class App02 {
         }
 
         // reader 연습
-        try (Reader reader = new FileReader(fileName)) {
+        try (Reader reader = new FileReader(filename)) {
             char[] data = new char[10];
             int length = reader.read(data);
 
-            System.out.println("length = " + length);
-        }
+            System.out.println("length = " + length); // 2
 
+        }
     }
 }

@@ -20,13 +20,6 @@ public class App02 {
                 while ((line = br.readLine()) != null) {
                     System.out.println("line = " + line);
                 }
-
-
-
             }
-
-
-
-
     }
 }

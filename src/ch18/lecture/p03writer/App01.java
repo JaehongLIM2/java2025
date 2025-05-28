@@ -13,7 +13,6 @@ public class App01 {
             os.write(33); // !
 
             os.write('t'); // good
-            os.write('걸'); // x
 
             os.flush();
         }
