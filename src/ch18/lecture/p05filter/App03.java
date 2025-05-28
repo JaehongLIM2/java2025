@@ -20,7 +20,8 @@ public class App03 {
         Writer writer = new FileWriter(file);
 //        BufferedWriter br = new BufferedWriter(writer);
 
-        try (writer){
+        try (writer) {
+            for (int i = 0; i < 1_000_000; i++) {
                 writer.write("this is java");
                 writer.write("\n");
             }
@@ -37,7 +38,8 @@ public class App03 {
         Writer writer = new FileWriter(file);
         BufferedWriter br = new BufferedWriter(writer);
 
-        try (br; writer){
+        try (br; writer) {
+            for (int i = 0; i < 1_000_000; i++) {
                 br.write("this is java");
                 br.newLine();
             }

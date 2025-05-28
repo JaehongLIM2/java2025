@@ -20,8 +20,11 @@ public class App05 {
                 os.write(bucket, 0, length);
             }
 
-        os.flush();
+            os.flush();
+        }
 
         System.out.println("파일 복사 종료");
+
+
     }
 }
