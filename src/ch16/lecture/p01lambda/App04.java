@@ -1,4 +1,4 @@
-package ch16.lecture.p01.lambda;
+package ch16.lecture.p01lambda;
 
 public class App04 {
     public static void main(String[] args) {
