@@ -41,6 +41,7 @@ public class App07Server {
                             <html>
                                 <body>
                                     <h1>처음만나는 서버 프로그래밍</h1>
+                                    <h2>여러 클라이언트에게 보내는 HTML</h2>
                                     <p>너무 즐겁다</p>
                                 </body>
                             </html>
