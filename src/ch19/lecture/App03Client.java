@@ -6,7 +6,7 @@ import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.net.Socket;
 
-public class App02Client {
+public class App03Client {
     public static void main(String[] args) throws Exception {
         String file = "C:/Temp/download.jpg";
         Socket socket = new Socket("192.168.0.101", 9876);
